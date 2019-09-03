@@ -1,0 +1,144 @@
+    1  git log
+    2  git log --oneline
+    3  git log -n
+    4  git log -1
+    5  git log -2
+    6  git log --oneline -1
+    7  clear
+    8  git log
+    9  clear
+   10  git status
+   11  git log
+   12  git show 3eb7a2dd6d02fe566f9868ac5cf8410008baecb9
+   13  git show 3eb7a2dd6d02fe566f9868ac5cf8410008baecb9
+   14  vi file1
+   15  git status
+   16  git commit -am "localrepo modified file" file1
+   17  clear
+   18  git status
+   19  git log
+   20  clear
+   21  git status
+   22  git commit -am "localrepo modified file" file1
+   23  git commit -am "localrepo modified file"
+   24  clear
+   25  git status
+   26  clear
+   27  git log
+   28  cd .git
+   29  ll
+   30  cd logs/
+   31  ll
+   32  cat HEAD 
+   33  git history
+   34  pwd
+   35  cd ../..
+   36  pwd
+   37  cd clone-dir/
+   38  clear
+   39  git clone https://github.com/venkatwas/repo-1.git
+   40  ll
+   41  clear
+   42  pwd
+   43  clear
+   44  pwd
+   45  cd ..
+   46  clear
+   47  ll
+   48  touch forhub
+   49  git add .
+   50  git status
+   51  git add .
+   52  pwd
+   53  pwd
+   54  git log
+   55  git push
+   56  clear
+   57  pwd
+   58  ll
+   59  touch new
+   60  git status
+   61  git add .
+   62  rm -rf new forhub first_class 
+   63  clear
+   64  ll
+   65  git status
+   66  touch hubfile
+   67  git status
+   68  git add hubfile 
+   69  ll
+   70  git status 
+   71  git commit "forhub" hubfile 
+   72  git commit --m "forhub" hubfile 
+   73  git status
+   74  clear
+   75  git log
+   76  git show 15a2777e0b10f23266c5c742aedd233e0ebe5448
+   77  clear
+   78  git log
+   79  git show 15d50c8be49833acabf062a4f5534230ba0c586a
+   80  history
+   81  git push
+   82  git push
+   83  git remote -v
+   84  ll
+   85  git log
+   86  git push
+   87  git remote add 3eb7a2dd6d02fe566f9868ac5cf8410008baecb9 https://github.com/venkatwas/repo-1.git
+   88  git push
+   89  git push hubfile
+   90  git push hubfile https://github.com/venkatwas/repo-1.git
+   91  clear
+   92  pwd
+   93  ll
+   94  git push
+   95  git remote add rep https://github.com/venkatwas/repo-1.git
+   96  git push
+   97  git remote add rep https://github.com/venkatwas/repo-1.git
+   98  git remote rep
+   99  git push --set-upstream origin master
+  100  git push --set-upstream rep master
+  101  git push
+  102  clear
+  103  pwd
+  104  clear
+  105  clear
+  106  exit
+  107  git branch
+  108  pwd
+  109  ll
+  110  cd clone-dir/
+  111  ll
+  112  git branch 
+  113  pwd
+  114  ll
+  115  clear
+  116  ll
+  117  cd repo-1/
+  118  git branch 
+  119  clear
+  120  cd ..
+  121  clear
+  122  pwd
+  123  git branch 
+  124  git branch master-1
+  125  git branch 
+  126  ll
+  127  pwd
+  128  git checkout master-1
+  129  git branch
+  130  git checkout master
+  131  git branch
+  132  git checkout master-1
+  133  pwd
+  134  ll
+  135  touch master1file
+  136  git add master1file 
+  137  git commit -m "master1"
+  138  git log
+  139  git push
+  140  history
+  141  pwd
+  142  cd ..
+  143  ll
+  144  history > commands/3rdclass

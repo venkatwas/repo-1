@@ -1,0 +1,76 @@
+    1  cd F
+    2  cd f:
+    3  cd GIT
+    4  cd 
+    5  cd D:
+    6  cd GIT/
+    7  git status
+    8  git init
+    9  git status 
+   10  ls -la
+   11  pwd
+   12  dir
+   13  ls
+   14  clear
+   15  clear
+   16  git config --global user.name "venk"
+   17  git config --global user.email "venk@gmail.com"
+   18  git --list
+   19  git -- list
+   20  cls
+   21  clear
+   22  git config --list
+   23  pwd
+   24  cd .git
+   25  pwd
+   26  cd ..
+   27  clear
+   28  touch file1
+   29  vi file1 
+   30  git status 
+   31  git add file1
+   32  git status
+   33  ll
+   34  clear
+   35  git status 
+   36  git commit -m "first file moved to local repo"
+   37  git log
+   38  git status
+   39  clear
+   40  git log
+   41  touch file2
+   42  git add file2
+   43  git status
+   44  git log
+   45  clear
+   46  git status
+   47  touch file3 file4
+   48  clear
+   49  git stats
+   50  git status
+   51  clear
+   52  git add file3 file4 
+   53  clear
+   54  git status
+   55  git log
+   56  ll
+   57  git status
+   58  rm -rf file4
+   59  ll
+   60  clear
+   61  dir
+   62  clear
+   63  ls
+   64  ll
+   65  rm -rf new
+   66  clear
+   67  ls -a
+   68  clear
+   69  ll
+   70  git commit -m "second-commit"
+   71  history
+   72  history >first_class
+   73  cat first_class 
+   74  clear
+   75  mkdir commands
+   76  history >commands/first_class
